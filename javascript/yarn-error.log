@@ -1,0 +1,42 @@
+Arguments: 
+  /home/redspider/.nvm/versions/node/v16.14.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /home/redspider/.sdkman/candidates/java/current/bin:/home/redspider/.nvm/versions/node/v16.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/redspider/.local/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/redspider/dev/eins/dojo/FizzBuzzKata-Samples/javascript/package.json: Unexpected token } in JSON at position 184
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "fizzbuzz",
+    "version": "1.0.0",
+    "main": "src/fizzbuzz.js",
+    "license": "MIT",
+      "scripts": {
+      "test": "jest"
+    },
+    "devDependencies": {
+      "jest": "^28.1.2",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
